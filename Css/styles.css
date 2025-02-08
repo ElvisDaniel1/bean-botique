@@ -1,0 +1,246 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	background-image: url('../Pics/coffee-bg.png');
+	background-size: auto;
+	color: white;
+}
+
+div.banner img {
+	width: 75px;
+}		
+div.banner {
+	margin-bottom: 40px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+nav ul {
+	display: flex;
+	margin-left: -120px;
+	/*flex-direction: row;*/
+}
+
+nav ul a {
+	text-decoration: none;
+	margin-right: 25px;
+	color: white;
+	font-size: 20px;
+}
+nav ul {
+	text-decoration: none;
+	list-style: none;
+}
+nav ul a:hover {
+	color: green
+}
+
+nav .cart img {
+	width: 50px;
+}
+
+a:hover {
+	color: pink;
+}
+
+div.content {
+	width: 38vw;
+	background-color: red;
+}
+
+div.card {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+div.card img {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+div.card span {color: black;}
+div.content {
+	background-color: grey;
+	width: 48vw;	
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}	
+
+div.banner {
+	display: flex;
+	height: 50px;
+	justify-content: space-between;
+}
+
+main section.hero div.card img {
+	width: 48vw;
+	height: 40vh;
+}
+
+main section.hero div.card div.content {
+		
+}
+
+div.content {
+	display: flex;
+	align-content: center;
+	font-size: 25px;
+	justify-content: center;
+}
+div.content p {
+	width: 50%;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.block {
+	display: block;
+}
+
+div.menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+div.menu div.left-drink, div.right-drink {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+div.menu img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 20px;
+	transition: all 0.15s ease-in;
+}
+
+div.menu img:hover {
+	border: 5px solid green;
+}
+div.menu div.drink-item:hover {
+	box-shadow:3px 3px olive;
+	width: 610px;
+}
+
+div.menu div.drink-item {
+	border: 2px solid green;
+	width: 600px;
+	height: 300px;
+	margin-bottom: 20px;
+	transition: all 0.15s ease-in;
+}
+div.menu div.drink-item {
+	margin-right: 20px;
+	padding: 10px;
+}
+
+div.drink-item {
+	display: flex;
+	background-color: #ebab34;
+}
+div.drink-item div.coffee-info p {
+		margin-bottom: 40px;
+		font-size: 20px;
+}
+div.drink-item span {
+	color: green;
+	font-weight: 900;
+}
+
+div.menu .drink-item.brewing {
+	width: 900px;
+	overflow: hidden;
+}
+div.menu .drink-item.brewing:hover {
+	height: 500px;	
+	width: 910px;
+}
+
+div.brewing-info{
+	display: none;
+}
+
+div.drink-item:hover .brewing-info{
+	display: block;
+}
+
+div.equipment.menu {
+	display: flex;
+	flex-direction: column;
+}
+
+/*EVENTS AND WORKSHOP PAGE*/
+body.events {
+	background-image: url('../Pics/events-bg.png');
+	background-size: cover;
+}	
+
+div.intro-card {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.intro-card img {
+	width: 98vw;
+	height: 600px;
+	overflow: hide;
+	transition: all 0.15s ease-in;
+}
+div.intro-card img:hover {
+	box-shadow: 3px 3px olive;
+	width: 98%;
+}
+
+
+
+
+
+
+
